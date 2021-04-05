@@ -31,7 +31,7 @@ let gamecards = [
   {
     title: "Today lab is here! Wow such clever! Nice!",
     lefttext: "I will finish now!!!!!",
-    rigthtext: "The bonus interations are not that important",
+    rigthtext: "The bonus are not that important",
     rightButtonEffect: [10, -5, -10, 15],
     leftButtonEffect: [20, -10, -15, 20],
   },
