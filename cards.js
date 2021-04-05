@@ -32,7 +32,7 @@ let gamecards = [
     title: "Today lab is here! Wow such clever! Nice!",
     lefttext: "I will finish now!!!!!",
     rigthtext: "The bonus are not that important",
-    rightButtonEffect: [10, -5, -10, 15],
+    rightButtonEffect: [10, -5, -10, 10],
     leftButtonEffect: [20, -10, -15, 20],
   },
   {
@@ -75,8 +75,8 @@ let gamecards = [
       "On the intro they reccomended for a second monitor. When clearly they wanted to say get a very confy chair.",
     lefttext: "Sell your second monitor",
     rigthtext: "Neck disconfort in 3, 2 ,1, GO!!",
-    rightButtonEffect: [0, 10, 0, 0],
-    leftButtonEffect: [0, -10, 0, 0],
+    rightButtonEffect: [0, -10, 0, 0],
+    leftButtonEffect: [0, 10, 0, 0],
   },
   {
     title: "MIND SO FULL error NULL zzzzzz. pszz",
