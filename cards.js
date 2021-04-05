@@ -1,7 +1,7 @@
 let gamecards = [
   // order od right/left/ButtonEffect is [stress, health, social, study]
   {
-    title: "Classes stopped at 19h What should I do next?",
+    title: "Classes stopped at 19h. What should I do next?",
     lefttext: "Keep studying until midnight",
     rigthtext: "Go play online videogames",
     rightButtonEffect: [-5, 0, 5, -10],
@@ -15,7 +15,7 @@ let gamecards = [
     leftButtonEffect: [-5, 5, 0, 0],
   },
   {
-    title: "It is sunday what should I do today?",
+    title: "It is sunday, what should I do today?",
     lefttext: "Study harder!",
     rigthtext: "Forget your problems, Carpe Dien",
     rightButtonEffect: [-10, 5, 5, -10],
@@ -38,7 +38,7 @@ let gamecards = [
   {
     title: "Wait there are self guided content??? Jesus!!!!",
     lefttext: "Sure I need to learn everything!!!!",
-    rigthtext: "Perhaps no one will no if I skipped",
+    rigthtext: "Perhaps no one will know if I skipped",
     rightButtonEffect: [0, 0, 0, -5],
     leftButtonEffect: [5, 0, 0, 5],
   },
@@ -105,5 +105,41 @@ let gamecards = [
     rigthtext: "NO! Just a few more lines",
     rightButtonEffect: [5, 0, -10, 5],
     leftButtonEffect: [-5, 5, 10, 0],
+  },
+  {
+    title: "Your soulmate is complaining the lack of attention",
+    lefttext: "Just ignore it",
+    rigthtext: "Why not watch netflix and chill?",
+    rightButtonEffect: [-5, 0, 10, 0],
+    leftButtonEffect: [5, 0, -10, 0],
+  },
+  {
+    title: "What is that smell?? Disgusting! ",
+    lefttext: "That is not relevant for my code",
+    rigthtext: "Christ! I really need to take a shower",
+    rightButtonEffect: [0, 5, 5, 0],
+    leftButtonEffect: [0, -10, -10, 0],
+  },
+  {
+    title:
+      "Wait dont press run!! Too late that while is going to run forever Muahahahaa! :(",
+    lefttext: "Nooo....ooo...ooo",
+    rigthtext: "Nooo....ooo...ooo",
+    rightButtonEffect: [5, 0, 0, 0],
+    leftButtonEffect: [5, 0, 0, 0],
+  },
+  {
+    title: "Sure just commit it in the mastern no problems ",
+    lefttext: "Two days latter... WTF??",
+    rigthtext: "Two days latter... WHYYYYY!",
+    rightButtonEffect: [5, 0, 0, -5],
+    leftButtonEffect: [5, 5, 0, -5],
+  },
+  {
+    title: "My dogs are whining",
+    lefttext: "Go out and play with them",
+    rigthtext: "Hug and pet them",
+    rightButtonEffect: [-10, 5, 5, 0],
+    leftButtonEffect: [-10, 5, 5, 0],
   },
 ];

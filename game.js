@@ -47,7 +47,7 @@ function startGame() {
   singleButton.innerText = "I am Ironhacker...";
   textContainer.innerText = demon[0];
   playerNameHolder.innerHTML =
-    '<input  type="input" id="name"  class="form__field" placeholder="Write thy name!" name="Write thy name!" required/>';
+    '<input  type="input" id="name"  class="form__field" placeholder="Write your name!" name="Write your name!" required/>';
 }
 
 function printPlayerName() {
@@ -168,7 +168,7 @@ function gameOver(death) {
         day = 1;
       } else {
         textContainer.innerText =
-          "After a few days of the bootcamp you where alredy teaching the professors Why expend time and effort towards a bootcamp. ";
+          "After a few days of the bootcamp you where alredy teaching the professors. Why expend time and effort towards a bootcamp? ";
         day = 1;
       }
       break;
