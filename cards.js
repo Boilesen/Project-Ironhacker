@@ -70,4 +70,40 @@ let gamecards = [
     rightButtonEffect: [0, 5, 0, 0],
     leftButtonEffect: [-5, -10, 0, 0],
   },
+  {
+    title:
+      "On the intro they reccomended for a second monitor. When clearly they wanted to say get a very confy chair.",
+    lefttext: "Sell your second monitor",
+    rigthtext: "Neck disconfort in 3, 2 ,1, GO!!",
+    rightButtonEffect: [0, 10, 0, 0],
+    leftButtonEffect: [0, -10, 0, 0],
+  },
+  {
+    title: "MIND SO FULL error NULL zzzzzz. pszz",
+    lefttext: "Meditate",
+    rigthtext: "Fight to regain control",
+    rightButtonEffect: [-5, 10, 0, 0],
+    leftButtonEffect: [10, -10, 0, 0],
+  },
+  {
+    title: "I dream about code every night",
+    lefttext: "Yeah!!",
+    rigthtext: "Argh",
+    rightButtonEffect: [5, 0, 0, 0],
+    leftButtonEffect: [-5, 0, 0, 0],
+  },
+  {
+    title: "Sleepy... zzz where coffee zzz coffzzz",
+    lefttext: "Hmm so much  coffee",
+    rigthtext: "Do small exercises to mantain focus",
+    rightButtonEffect: [-5, 5, 0, 5],
+    leftButtonEffect: [5, -10, 0, 5],
+  },
+  {
+    title: "It`s 20h  fammily dinner is on ",
+    lefttext: "Join dinner",
+    rigthtext: "NO! Just a few more lines",
+    rightButtonEffect: [5, 0, -10, 5],
+    leftButtonEffect: [-5, 5, 10, 0],
+  },
 ];
