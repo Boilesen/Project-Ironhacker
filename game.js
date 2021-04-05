@@ -89,6 +89,7 @@ function gameInitialLoop() {
     gameLoop();
   });
 }
+var supportarray = [];
 
 function gameLoop() {
   day++;
@@ -103,7 +104,15 @@ function gameLoop() {
   }
 
   if (theKingWillDie[0] == -1 && theKingWillDie[1] == -1) {
-    let x = Math.floor(Math.random() * gamecards.length);
+    let y = Math.floor(Math.random() * gamecards.length);
+
+    if (supportarray.includes(y)) {
+      y = Math.floor(Math.random() * gamecards.length);
+    } else {
+      x = y;
+      supportarray = supportarray.push(x);
+    }
+
     const card = gamecards[x];
 
     textContainer.innerText = card.title;
