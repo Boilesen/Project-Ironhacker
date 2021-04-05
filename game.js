@@ -92,26 +92,27 @@ function gameInitialLoop() {
 var supportarray = [];
 
 function gameLoop() {
-  day++;
+  day += 1;
   ageVariable = `Day ${day} of Ironhacker ${nameVariable}`;
   ageHolder.innerText = ageVariable;
   player.printCurrentStatus();
   const theKingWillDie = player.isPlayerOver();
 
-  if (day > 62) {
+  if (day > gamecards.length) {
     textContainer.innerText = "Congratulations!!! You finish the bootcamp!";
     won();
+    return;
   }
 
   if (theKingWillDie[0] == -1 && theKingWillDie[1] == -1) {
     let y = Math.floor(Math.random() * gamecards.length);
-
-    if (supportarray.includes(y)) {
+    console.log(supportarray);
+    while (supportarray.includes(y)) {
       y = Math.floor(Math.random() * gamecards.length);
-    } else {
-      x = y;
-      supportarray = supportarray.push(x);
     }
+
+    x = y;
+    supportarray.push(x);
 
     const card = gamecards[x];
 
@@ -122,11 +123,25 @@ function gameLoop() {
       player.updatePlayer(card.leftButtonEffect);
       player.printCurrentStatus();
       gameLoop();
+      console.log(
+        player.stressHTMLNode,
+        player.healthHTMLNode,
+        player.socialHTMLNode,
+        player.studyHTMLNode
+      );
+      console.log(card.leftButtonEffect);
     };
     rigthButton.onclick = () => {
       player.updatePlayer(card.rightButtonEffect);
       player.printCurrentStatus();
       gameLoop();
+      console.log(
+        player.stressHTMLNode,
+        player.healthHTMLNode,
+        player.socialHTMLNode,
+        player.studyHTMLNode
+      );
+      console.log(card.rightButtonEffect);
     };
   } else {
     theKingWillDie[0] != -1
@@ -231,5 +246,6 @@ function won() {
     textContainer.innerText =
       "Congratulations!!! You finish the bootcamp after 63 days!";
     day = 0;
+    supportarray = [];
   });
 }

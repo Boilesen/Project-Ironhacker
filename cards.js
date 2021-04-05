@@ -194,7 +194,7 @@ let gamecards = [
   {
     title: "It`s my birthday. One more translation arounds the sun!",
     lefttext: "Yeah birthday cake",
-    rigthtext: "Ther is no cake. The cake is a lie",
+    rigthtext: "There is no cake. The cake is a lie",
     rightButtonEffect: [20, -20, -20, -20],
     leftButtonEffect: [-10, 10, 10, 0],
   },
