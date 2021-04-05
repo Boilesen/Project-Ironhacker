@@ -82,8 +82,8 @@ let gamecards = [
     title: "MIND SO FULL error NULL zzzzzz. pszz",
     lefttext: "Meditate",
     rigthtext: "Fight to regain control",
-    rightButtonEffect: [-5, 10, 0, 0],
-    leftButtonEffect: [10, -10, 0, 0],
+    rightButtonEffect: [10, -10, 0, 0],
+    leftButtonEffect: [-10, 10, 0, 0],
   },
   {
     title: "I dream about code every night",
