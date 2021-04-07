@@ -1,6 +1,6 @@
 
 body {
-  background-color: gray;
+  background-color: #787E8F;
   margin: 0 auto;
   padding: 1em;
   max-width: 60em;
@@ -23,7 +23,8 @@ ul li {
 /* Game Container */
 
 .story-container {
-  background-color: lightblue;
+  border-radius: 25px 25px 0  0;
+  background-color: #6BD8F5;
   height: 600px;
   width: 50%;
   display: flex;
@@ -35,6 +36,7 @@ ul li {
 /* Status container */
 
 .status-container {
+  border-radius: 25px;
   width: 100%;
   height: 60px;
   text-align: center;
@@ -46,6 +48,7 @@ ul li {
 }
 
 .status-container ul {
+  border-radius: 25px;
   list-style: none;
   display: flex;
   justify-content: space-around;
@@ -61,6 +64,7 @@ ul li {
 /* decision text */
 
 .decision-text-container {
+  border-radius: 25px, 25PX, 0 , 0;
   width: 70%;
   height: 40%;
   display: flex;
@@ -71,7 +75,7 @@ ul li {
   padding-left: 3em;
   padding-right: 3em;
   margin-bottom: 10%;
-  background-color: lightblue;
+  background-color: #6BD8F5;
   font-size: 20px;
   /* word-break: break-all; */
 }
@@ -79,6 +83,7 @@ ul li {
 /* footer: player info */
 
 .player-info {
+
   width: 50%;
   height: 60px;
   text-align: center;
@@ -89,6 +94,10 @@ ul li {
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+
+#player-id {
+  border-radius: 0 0 25px 25px;
 }
 
 /* button fading classes */
@@ -117,16 +126,24 @@ ul li {
 }
 
 .choice-buttons {
+  opacity: 0.6;
+  transition: 0.3s;
+  border-radius: 20px;
   background-color: #1E2434;
   color: #2DC5FA;
-  padding: 15px 32px;
+  padding: 10px 27px;
   text-align: center;
   font-size: 16px;
   width: 40%;
   height: 80%;
 }
+.choice-buttons:hover {
+  opacity: 1;
+font-size:  18px;
+}
 
 .choice-buttons-container {
+  border-radius: 10px;
   background-color: #1E2434;
   width: 100%;
   height: 100px;
